@@ -1,0 +1,10 @@
+Sandbox_EN = {
+	Sandbox_DWAP_PolePosition_General = "UDWAP Pole Position",
+
+	Sandbox_DWAP_PolePosition_MakePrimary = "Force this safehouse as primary",
+	Sandbox_DWAP_PolePosition_MakePrimary_tooltip = "Overrides the Uncle Dave settings for the selected safe house in favor of this one",
+
+	Sandbox_DWAP_PolePosition_IncludeLoot = "Include Loot",
+	Sandbox_DWAP_PolePosition_IncludeLoot_tooltip = "Loot is minimal and will follow Loot settings if included",
+
+}

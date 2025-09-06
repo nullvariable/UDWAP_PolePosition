@@ -1,0 +1,20 @@
+VERSION = 1,
+
+
+option DWAP_PolePosition.MakePrimary
+{
+	type = boolean,
+	default = false,
+
+	page = DWAP_PolePosition_General,
+	translation = DWAP_PolePosition_MakePrimary,
+}
+
+option DWAP_PolePosition.IncludeLoot
+{
+	type = boolean,
+	default = true,
+
+	page = DWAP_PolePosition_General,
+	translation = DWAP_PolePosition_IncludeLoot,
+}
