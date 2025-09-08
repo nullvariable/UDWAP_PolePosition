@@ -6,7 +6,8 @@ local PolePosition = {
             { x = 12672, y = 6422, z = 0, },
         },
     },
-    allowStories = true,
+    allowStories = "DWAP_PolePosition.KeepZombies",
+    map = { name = "DWAP_PPStashMap1", },
     generators = {
         {
             controls = { sprite = "industry_02_67", x = 12658, y = 6400, z = 2, },
@@ -96,7 +97,6 @@ local PolePosition = {
         { sprite = "fixtures_sinks_01_12", x = 12693, y = 6397, z = 0, sourceType="tank", source = 1, },
     },
     loot = {
-        -- penthouse top
         {
             type = 'container',
             coords = {x=12673,y=6410,z=1},
@@ -129,6 +129,12 @@ local PolePosition = {
         {
             type = 'container',
             coords = {x=12660,y=6418,z=1},
+            special = "gunlocker",
+            level = "Loot_GunLevel",
+        },
+        {
+            type = 'container',
+            coords = {x=12670,y=6419,z=1},
             special = "gunlocker",
             level = "Loot_GunLevel",
         },

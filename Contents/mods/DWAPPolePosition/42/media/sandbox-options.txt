@@ -1,6 +1,5 @@
 VERSION = 1,
 
-
 option DWAP_PolePosition.MakePrimary
 {
 	type = boolean,
@@ -10,11 +9,64 @@ option DWAP_PolePosition.MakePrimary
 	translation = DWAP_PolePosition_MakePrimary,
 }
 
-option DWAP_PolePosition.IncludeLoot
+option DWAP_PolePosition.KeepZombies
 {
 	type = boolean,
 	default = true,
 
 	page = DWAP_PolePosition_General,
-	translation = DWAP_PolePosition_IncludeLoot,
+	translation = DWAP_PolePosition_KeepZombies,
+}
+
+option DWAP_PolePosition.Key
+{
+	type = enum,
+	numValues = 2,
+	default = 1,
+
+	page = DWAP_PolePosition_General,
+	translation = DWAP_PolePosition_Key,
+	valueTranslation = DWAP_PolePosition_Key_value,
+}
+
+option DWAP_PolePosition.Map
+{
+	type = enum,
+	numValues = 3,
+	default = 1,
+
+	page = DWAP_PolePosition_General,
+	translation = DWAP_PolePosition_Map,
+	valueTranslation = DWAP_PolePosition_Map_value,
+}
+
+option DWAP_PolePosition.EssentialLoot
+{
+	type = enum,
+	numValues = 3,
+	default = 1,
+
+	page = DWAP_PolePosition_General,
+	translation = DWAP_PolePosition_EssentialLoot,
+	valueTranslation = DWAP_PolePosition_EssentialLoot_value,
+}
+
+option DWAP_PolePosition.RegularLoot
+{
+	type = enum,
+	numValues = 5,
+	default = 1,
+
+	page = DWAP_PolePosition_General,
+	translation = DWAP_PolePosition_RegularLoot,
+	valueTranslation = DWAP_PolePosition_RegularLoot_value,
+}
+
+option DWAP_PolePosition.ExtraLoot
+{
+	type = boolean,
+	default = false,
+
+	page = DWAP_PolePosition_General,
+	translation = DWAP_PolePosition_ExtraLoot,
 }
